@@ -1,4 +1,4 @@
-# CIAO Defensive Programming Principles (v2.8)
+# CIAO Defensive Programming Principles (v2.8.0)
 
 **Original Author**: Cloudgen Wong (`cloudgen.wong@gmail.com`)  
 **Widely adopted and extended by**: Wilgat Wong in projects such as `pix-client`, `poe-client`, `SyncPrjs`, `pomo`, `ChronicleLogger`, `certbot-nginx`, `mariadb-galera`, etc.
@@ -9,7 +9,7 @@
 
 ## Purpose
 
-CIAO is a defensive programming philosophy designed as the **best practice when working with AI**.  
+[CIAO](https://github.com/cloudgen/ciao) is a defensive programming philosophy designed as the **best practice when working with AI**.  
 It forces both AI and human developers to think beyond the immediate task — toward long-term robustness, security, auditability, traceability, and maximum compatibility across environments and user scenarios.
 
 ---
@@ -66,7 +66,7 @@ It forces both AI and human developers to think beyond the immediate task — to
 - Be compatible with `sdkman`, `pyenv`, `conda`, `nvm`, `rbenv`, etc.
 - Support multiple shells: `sh`, `dash`, `ash`, `bash`, `zsh`, `fish`, `Git Bash`, etc.
 
-### 14. Interactive vs Non-Interactive Mode Awareness (New in v2.8)
+### 14. Interactive vs Non-Interactive Mode Awareness
 - Always be aware of whether the program is running in **interactive** or **non-interactive** mode.
 - Detect non-interactive environments (e.g., scripts, CI/CD, `curl | sh`, Docker builds, Ansible, etc.).
 - When performing actions that normally require user input (e.g., package installation, database setup, confirmation prompts):
@@ -94,7 +94,7 @@ It forces both AI and human developers to think beyond the immediate task — to
 
 ---
 
-## How to Apply CIAO in Your Project
+## How to Apply [CIAO](https://github.com/cloudgen/ciao) in Your Project
 
 1. Add this file (`CIAO-PRINCIPLES.md`) to your repository root or `docs/` folder.
 2. Include the full CIAO header at the top of every source file.
