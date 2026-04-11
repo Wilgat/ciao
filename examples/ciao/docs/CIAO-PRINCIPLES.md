@@ -60,7 +60,7 @@ It forces both AI and human developers to think beyond the immediate task — to
 ### 12. Security & Traceability Reasons
 - Strictly separate `stdout` (user-facing) and `stderr` (diagnostics).
 - Support multiple log levels: ERROR, WARNING, INFO, DEBUG.
-- Debug mode must be switchable via environment variable (e.g. `CIAO_DEBUG=1`).
+- Debug mode must be switchable via environment variable (e.g. `DEBUG=1`).
 
 ### 13. Support for Multiple Version Management Systems & Shells
 - Be compatible with `sdkman`, `pyenv`, `conda`, `nvm`, `rbenv`, etc.
