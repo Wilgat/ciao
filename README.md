@@ -1,6 +1,3 @@
-### CIAO Defensive Programming Principles (v2.8)
-
-```markdown:disable-run
 # CIAO Defensive Programming Principles (v2.8)
 
 **Original Author**: Cloudgen Wong (`cloudgen.wong@gmail.com`)  
