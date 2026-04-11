@@ -1,6 +1,3 @@
-Here is the **complete and restored v2.9.1** with everything you requested, in the proper order:
-
-```markdown
 # CIAO Defensive Programming Principles (v2.9.1)
 
 **Original Author**: Cloudgen Wong (`cloudgen.wong@gmail.com`)  
